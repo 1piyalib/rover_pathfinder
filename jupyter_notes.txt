@@ -1,0 +1,32 @@
+Package Directory
+------------------
+\\python_installed_dir\scripts
+
+upgrade pip to pip3 (needed for jupyter)
+-----------------
+pip --version
+python -m pip install --upgrade pip
+
+pip Install jupyter
+pip install wheel (may not be needed)
+
+Matplotlib
+Giving error "'matplotlib.colors' has no attribute 'to_rgba'"
+upgrade to version 3.3.4
+
+Plotly
+Install chart-studio - not needed can support only 40K data points
+
+Wigets
+install ipywidgets
+https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
+https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html
+
+For not showing the code in notebook install nbextension
+https://stackoverflow.com/questions/49647705/jupyter-nbextensions-does-not-appear
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable varInspector/main
+
+
+
