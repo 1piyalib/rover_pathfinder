@@ -26,3 +26,8 @@ rover_maze_slope20.txt - maze text file with go/no-go cells for input to BFS alg
 
 rover_path.csv - rover path array in latitude, longitude (slope =15)
 
+As a part of the upcoming Artemis mission, NASA released a large dataset of the lunar south pole, including latitude, longitude, height, and slope. This data focuses on the area surrounding the designated landing and rover exploration sites near Shackleton Crater.
+ I processed the raw data into an equally spaced and sequential matrix of latitude, longitude, height, and slope from the LRO satellite. I then converted this matrix into a go/no-go maze of the terrain and applied the Breadth First Search (BSF) and A* algorithms to find the optimal path. The terrain and path were plotted in 2D using Matplotlib and interactively displayed in 3D using Plotly. The results identified the minimum rover slope and viable paths.
+ 
+
+
